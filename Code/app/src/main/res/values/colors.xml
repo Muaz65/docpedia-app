@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#f9f9f9</color>
+
+    <color name="colorPureWhite">#ffffff</color>
+
+    <color name="colorNewTitle">#0083c2</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#e61933</color>
+    <color name="year">#bbbbbb</color>
+    <color name="moredark">#999999</color>
+    <color name="date">#777777</color>
+
+    <color name="title">#222222</color>
+    <color name="problemColor">#666666</color>
+    <color name="white">#f9f9f9</color>
+    <color name="colorPrimaryPurana">#c888a5</color>
+    <color name="backwhite">#fcfcfc</color>
+
+
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color> -->
+    <color name="colorPurpleLight">#4B5980</color>
+    <color name="colorPurpleDark">#3F4A68</color>
+    <color name="colorTextBlack">#333333</color>
+    <color name="colorTextHint">#e1e1e1</color>
+    <color name="colorTextInfo">#9b9b9b</color>
+    <color name="colorGreen">#A5DE40</color>
+    <color name="navColor">#e61933</color>
+        <!-- 80FFFFFF</color>
+ -->
+
+
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+
+
+</resources>

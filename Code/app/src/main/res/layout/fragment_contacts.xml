@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="0dip">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="536dp"
+                android:layout_height="match_parent"
+                android:fadingEdge="none"
+                android:forceHasOverlappingRendering="true"
+                android:overScrollMode="never">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+            <LinearLayout
+                android:id="@+id/confirm"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                android:background="@drawable/corners1"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/corners2"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="30dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Are you sure you want to book this session?\n The session will cost you 100 rupees for 5 minutes"
+                    android:textColor="@color/colorNewTitle"
+                    android:textSize="13sp"
+
+                    />
+
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:paddingTop="20dp"
+    android:layout_gravity="center_horizontal"
+    >
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/cornersanswer1"
+        android:text="Sure"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textColor="@color/colorPureWhite" />
+
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:id="@+id/btn_cancel"
+        android:textAllCaps="false"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/cornersanswer1"
+        android:textSize="15sp"
+        android:text="Cancel"
+        android:textColor="@color/colorPureWhite" />
+</LinearLayout>
+</LinearLayout>
+
+
+            </LinearLayout>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+
+
+
+                android:src="@drawable/logout1"
+                android:visibility="visible"
+                />
+
+
+
+        </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="@dimen/space10"
+    android:layout_marginRight="@dimen/spaceLR"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/user1"
+        android:layout_marginRight="@dimen/space10"
+        android:id="@+id/imageView2"
+
+        android:layout_margin="15sp"
+         />
+
+    <TextView
+        android:id="@+id/tv_chat_text"
+
+        android:maxWidth="185dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignRight="@id/messImage"
+        android:text="Hi, joe how are you, do you like to join our party "
+        android:textColor="@color/white"
+        android:padding="15sp"
+        android:textSize="15dp"
+        android:paddingLeft="15sp"
+        android:layout_margin="15sp"
+        android:background="@color/colorAccent"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView2" />
+
+
+    <ImageView
+
+        android:id="@+id/messImage"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="0dp"
+        android:layout_weight="8.40"
+        android:maxWidth="250dp"
+        android:paddingLeft="15dp"
+        android:layout_marginBottom="15sp"
+        android:scaleType="fitXY" />
+
+
+
+</RelativeLayout>

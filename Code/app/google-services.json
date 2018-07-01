@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "904172173569",
+    "firebase_url": "https://myfirstfirbase-5b3a0.firebaseio.com",
+    "project_id": "myfirstfirbase-5b3a0",
+    "storage_bucket": "myfirstfirbase-5b3a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904172173569:android:c3ec13eb4d543539",
+        "android_client_info": {
+          "package_name": "com.example.suleman.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904172173569-779gkh71k6oudgqk4vdvl3k3n27ec35j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXta4A2hdiwOBjKPnJpVIcoTzdf0QAHqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
